@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.venv/
+venv/
+ENV/
+
+# Data / caches
+*.npy
+data/*.json
+data/zeros_*.npy
+results*.json
+*.npz
+*.npzz
+
+# Figures (regenerated)
+figures/*.png
+figures/*.pdf
+rh_energy.png
+rh_harness.png
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
